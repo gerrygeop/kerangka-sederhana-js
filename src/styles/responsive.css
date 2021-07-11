@@ -1,0 +1,33 @@
+@media screen and (min-width: 650px) {
+  .app-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 32px;
+  }
+
+  /* .app-bar__brand h1 {
+    font-size: 1.5em;
+  } */
+
+  .app-bar__hamburger {
+    display: none;
+  }
+
+  .app-bar__navigation {
+    text-align: right;
+    position: static;
+    width: 40%;
+    background-color: var(--primary);
+  }
+
+  .app-bar__navigation ul li {
+    display: inline-block;
+  }
+
+  .app-bar__navigation ul li a {
+    display: inline-block;
+    width: 120px;
+    text-align: center;
+    margin: 0;
+  }
+}
